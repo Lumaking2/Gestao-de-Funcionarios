@@ -1,13 +1,11 @@
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import MODEL.Departamento;
 
-public class MyJDBC {
+public class Program {
 
     public static void main(String[] args) {
 
-        try {
+
+      /*  try {
                 //Faz a conexão com o banco de dados
                 Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/aula-jdbc", "root", "Luma300599.");
 
@@ -23,7 +21,7 @@ public class MyJDBC {
             }
         } catch (Exception e){
             e.printStackTrace();
-        }
+        } */
 
 
 
