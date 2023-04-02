@@ -1,10 +1,12 @@
-import MODEL.Departamento;
+import DAO.FuncionarioDAO;
+import MODEL.DaoFactory;
+import DAOimplementacao.FuncionarioDaoJDBC;
 
 public class Program {
 
     public static void main(String[] args) {
 
-
+        
       /*  try {
                 //Faz a conexão com o banco de dados
                 Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/aula-jdbc", "root", "Luma300599.");
